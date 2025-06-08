@@ -11,7 +11,6 @@ The goal of this project was to:
 - Visualize security incidents and perform basic remediation.
 
 ## Tools & Services Used
-
 - **Microsoft Azure**
   - Azure Virtual Machines (Linux/Windows)
   - Microsoft Defender for Cloud
@@ -19,3 +18,11 @@ The goal of this project was to:
   - Azure Monitor
 - **Languages/Queries**
   - KQL (Kusto Query Language)
+
+## KQL Query – Detecting Successful Logins
+
+This query filters security events to show only **successful login attempts** that were not made by system accounts:
+
+```kql
+SecurityEvent
+| where Activity contains "success" and Account !contains "system"
