@@ -1,4 +1,4 @@
-# SecurityMonitor
+al# SecurityMonitor
 # Cloud Security Monitoring with Microsoft Azure
 A hands-on cybersecurity project built using Microsoft Azure to simulate a secure cloud infrastructure, monitor for threats, and respond to security incidents in real time.
 
@@ -13,7 +13,7 @@ The goal of this project was to:
 ## Tools & Services Used
 - **Microsoft Azure**
   - Azure Virtual Machines (Linux/Windows)
-  - Microsoft Defender for Cloud
+  - Microsoft Sentinal
   - Log Analytics Workspace
   - Azure Monitor
 - **Languages/Queries**
