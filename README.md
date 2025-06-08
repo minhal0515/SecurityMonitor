@@ -1,4 +1,4 @@
-al# SecurityMonitor
+# SecurityMonitor
 # Cloud Security Monitoring with Microsoft Azure
 A hands-on cybersecurity project built using Microsoft Azure to simulate a secure cloud infrastructure, monitor for threats, and respond to security incidents in real time.
 
